@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>blocker</class>
+ <widget class="QMainWindow" name="blocker">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>611</width>
+    <height>381</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>webBlocker</string>
+  </property>
+  <property name="animated">
+   <bool>true</bool>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Rounded</enum>
+  </property>
+  <property name="unifiedTitleAndToolBarOnMac">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background:rgb(29, 27, 49);</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>20</y>
+      <width>391</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(243, 226, 30);
+font: 75 36pt &quot;Verdana&quot;;
+font-size:65px</string>
+    </property>
+    <property name="text">
+     <string>WebBlocker</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>100</y>
+      <width>141</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(243, 226, 30);
+font: 75 20pt &quot;MS Serif&quot;;
+font-size:30px</string>
+    </property>
+    <property name="text">
+     <string>facebook :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>100</y>
+      <width>81</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(243, 226, 30);
+font: 75 20pt &quot;MS Serif&quot;;
+font-size:30px</string>
+    </property>
+    <property name="text">
+     <string>insta:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="face">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>110</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">.QPushButton {
+background:rgb(207, 184, 53);
+font: 75 19pt &quot;MS Sans Serif&quot;;
+color:;
+border: 3px solid  rgb(207, 184, 53);
+border-color: rgb(207, 184, 53)   ;
+border-radius: 10px;
+
+
+}
+.QPushButton:hover {
+background:rgb(29, 27, 49);
+color:rgb(207, 184, 53);
+border: 2px solid  rgb(207, 184, 53);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>test</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="insta">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>110</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">.QPushButton {
+background:rgb(207, 184, 53);
+font: 75 19pt &quot;MS Sans Serif&quot;;
+color:;
+border: 3px solid  rgb(207, 184, 53);
+border-color: rgb(207, 184, 53)   ;
+border-radius: 10px;
+
+}
+.QPushButton:hover {
+background:rgb(29, 27, 49);
+color:rgb(207, 184, 53);
+border: 2px solid  rgb(207, 184, 53);
+}</string>
+    </property>
+    <property name="text">
+     <string>test</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="new_link">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>200</y>
+      <width>281</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:white;
+font: 75 14pt &quot;MS Serif&quot;;
+border: 3px solid  rgb(207, 184, 53);
+border-radius: 20px 10px 10px 10px ;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>180</y>
+      <width>151</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(243, 226, 30);
+font: 75 20pt &quot;MS Serif&quot;;
+font-size:30px</string>
+    </property>
+    <property name="text">
+     <string>block link :</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="block">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>200</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">.QPushButton {
+background:rgb(207, 184, 53);
+font: 75 19pt &quot;MS Sans Serif&quot;;
+color:;
+border: 3px solid  rgb(207, 184, 53);
+border-color: rgb(207, 184, 53)   ;
+border-radius: 10px;
+
+}
+.QPushButton:hover {
+background:rgb(29, 27, 49);
+color:rgb(207, 184, 53);
+border: 4px solid  rgb(207, 184, 53);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>block</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="already">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>270</y>
+      <width>251</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:red;
+font: 75 20pt &quot;MS Serif&quot;;
+font-size:30px</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="done">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>270</y>
+      <width>151</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(30, 255, 19);
+font: 75 20pt &quot;MS Serif&quot;;
+font-size:30px</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
